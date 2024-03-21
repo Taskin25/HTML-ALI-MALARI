@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .main_header {
+        background-color: #fc997c;
+        padding: 8px 16px;
+      }
+      .main_nav {
+        display: inline-block;
+        width: calc(100% - 99px);
+        text-align: right;
+      }
+      .main_nav__items {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      #showcase {
+        background-color: #fff;
+        background: url(home-bg.jpeg);
+        background-position: center;
+        height: 500px;
+        width: 100%;
+        padding: 10px;
+      }
+
+      .main_nav__item {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .main_header__logo {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 21px;
+      }
+      .main_nav__item a {
+        color: #fff;
+        padding: 5px 0;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+      }
+      .main_nav__item a:hover,
+      .main_nav__item:hover::before {
+        color: #2e4c6e;
+      }
+
+      .main_nav__item:active::before,
+      .main_nav__item a:active {
+        color: #fff;
+      }
+
+      .main_nav__item::before {
+        color: #fff;
+        content: "\2022";
+      }
+
+      .main_nav__item:hover::before {
+        content: "\2022";
+      }
+      .main_nav__item--login a {
+        color: #fff;
+        background-color: #2e4c6d;
+        padding: 4px 16px;
+        border-radius: 8px;
+        border: 2px solid #fff;
+      }
+      .main_nav__item--login a:hover {
+        color: #2e4c6d;
+        border: 2px solid #fff;
+        background-color: #fff;
+      }
+      .main_nav__item--login::before {
+        content: none;
+      }
+
+      #how_it_works {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+      }
+
+      #how_it_works h2 {
+        color: #3e4555;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .row {
+        margin-bottom: 40px;
+      }
+
+      .col {
+        display: inline-block;
+        width: calc(33% - 15px);
+        margin-left: 15px;
+      }
+      .icon_box h3 {
+        color: #3e4555;
+        font-size: 26;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main_header">
+      <a href="#" class="main_header__logo">Movieapp</a>
+      <nav class="main_nav">
+        <ul class="main_nav__items">
+          <li class="main_nav__item">
+            <a href="#">filmler</a>
+          </li>
+          <li class="main_nav__item">
+            <a href="#">diziler</a>
+          </li>
+          <li class="main_nav__item main_nav__item--login">
+            <a href="#">login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <h1>welcome to Movieapp</h1>
+      </section>
+
+      <section id="how_it_works">
+        <div class="row">
+          <h2>How it the works?</h2>
+
+          <p>
+            We will show you step how to start watching your favourite movies &
+            tv shows strating now!
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="icon-box col">
+            <h3>Register</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates recusandae reprehenderit iste dolore aspernatur.
+              Eveniet.
+            </p>
+          </div>
+
+          <div class="icon-box col">
+            <h3>Choose a Plan</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates recusandae reprehenderit iste dolore aspernatur.
+              Eveniet.
+            </p>
+          </div>
+
+          <div class="icon-box col">
+            <h3>Enjoy Movify</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates recusandae reprehenderit iste dolore aspernatur.
+              Eveniet.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section></section>
+  </body>
+</html>
