@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Formu</title>
+    <style>
+    .menu {
+        background-color: rgb(246, 229, 208);; 
+        width: 750px;
+        height: 829px;
+        margin: 50px auto;
+        box-shadow: inset 16px 20px 20px gray;
+}
+div {
+    display: block;
+}
+    .ust{
+      background-color:#19A7CE;
+      height: 80px;
+      }
+    .alt{
+        display: inline-block;
+    background: url(alt.png);
+    background-attachment: local;
+    background-size: cover;
+    width: 750px;
+    height: 70px;
+margin-top: 16px;   
+    }
+    .alt p{
+    font-family:cursive;
+    margin: 40px 10px 0 0 ;
+    color: azure;
+    float: right;
+
+    }
+      .tablo1{
+       display: block;
+      float: left;  
+      margin-top: 11px;
+
+    }
+  
+    .tablo2{
+      display: block;
+      float: left;  
+      clear: both;
+      margin-top: 10px;
+    }
+    .menuyan{
+      display:block;
+      background: url(inönü.jpg);
+      background-attachment:local;
+      background-size:cover;
+      margin: 25px 0 0 30px;
+      width: 350px;
+      height: 318px;
+      float: left;
+      box-shadow: 19px 9px 20px 0px #877d7d;
+
+    }
+      
+
+    h1 {
+      text-align: center;
+    margin: 0 0 0 14px;
+    display: inline-block;
+     }
+     #adres {
+        height: 20px;
+      }
+      h1 p {
+     margin-block-start: 0;
+     color: #FFD966;
+     display: block;
+     height: 10px;
+     }
+
+      #zorunlu{
+      background-color: #19A7CE;
+      font-size: 10px;
+      margin: 0;
+
+      }
+      #zorunlu1{
+      width: 97px;
+      background-color: #19A7CE;
+      font-size: 10px;
+      margin: 0;
+      }
+
+      #zorunlu2{
+      width: 100px;
+      background-color: #19A7CE;
+      font-size: 10px;
+      margin: 0;
+      }
+
+      #zorunlu3{
+      width: 133px;
+      background-color: #19A7CE;
+      font-size: 10px;
+      margin: 0;
+      }
+      
+
+      .logoright{
+      float: right;
+      margin-top: 12px;
+      margin-right: 10px;
+      }
+
+      .logoleft{
+        margin-top: 12px;
+        margin-left: 10px;
+      }
+
+      #gonder_b{
+        background-color:#F4B183;
+        font-size: 16px;
+    border: none;
+    background-color: #F4B183;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 5px;
+;      }
+      #gonder_b:hover{
+      
+        background-color: #FFD966
+
+      }
+      #gonder_b:active{
+        background-color: #DFA67B;
+
+      }
+      .özellik{
+      background-color: #E1F5FE;
+      } 
+      .özellik:hover{
+      background-color: #AFD3E2;
+      }
+
+      .özellik:active{
+        background-color: #F2B6A0;
+      }
+
+      .özellik1{
+        border: 2px solid #0000007a;
+        width: 130px;
+        background-color: #E1F5FE;
+      }
+      .özellik1:hover{
+      background-color: #AFD3E2;
+      }
+
+      .özellik1:active{
+        background-color: #F2B6A0;
+      
+      }
+      #tercihen{
+    background-color: #78c852;
+    font-size: 11px;
+    margin: 0;
+    width: 366px;
+    
+    } #tercihen1{
+      background-color: #78c852;
+    font-size: 11px;
+    margin: 0;
+    width: 463px;
+    
+    } #tercihen2{
+      background-color: #78c852;
+    font-size: 11px;
+    margin: 0;
+    width: 541px;
+    
+    }
+      .t2özellik{
+        border: 2px solid #0000007a;
+        background-color: #E8F5E9;
+        width: 363px;
+      } 
+
+      .t2özellik:hover{
+      background-color: #b9dec1;
+      }
+       .t2özellik:active{
+        background-color: #f0d3a9;      
+      }
+      .t2özellik1{
+        border: 2px solid #0000007a;
+        background-color: #E8F5E9;
+        width: 460px;
+      }
+      .t2özellik1:hover{
+        background-color: #b9dec1;
+      }
+      .t2özellik1:active{
+        background-color: #f0d3a9;
+      
+      }
+       .t2özellik2{
+        background-color: #E8F5E9;
+        width: 535px;
+      }
+      .t2özellik2:hover{
+        background-color: #b9dec1;
+      }
+      .t2özellik2:active{
+        background-color: #f0d3a9;      
+      }
+      #td1{
+        color: #0277BD;
+        border-bottom: 1px solid #3dd35b;
+      }
+   
+      .td2{
+        color: #388E3C;
+        border-bottom: 1px solid #4f8bc3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="ust">
+        <img class="logoleft" src="logo.png" width="60px" height="60px">
+              <h1>
+     <p>   İNÖNÜ ÜNİVERİSTESİ </p>
+        <p>Web Programlama Kursuna kayıt Formu</p>
+      </h1><img class="logoright" src="logo.png" width="60px" height="60px"></div>
+      <form action="kaydet.html">
+        <table class="tablo1">
+      
+          <tr>
+            <td id="td1"  ><labelfor="ad">
+              Ad:</label></td>
+            <td style="width: 50px" ><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td>
+              <p id="zorunlu">*zorunlu</p>
+              <input  class="özellik" type="text" id="ad" required placeholder="adınızı girin" />
+            </td>
+          </tr>
+        
+
+          <tr>
+            <td id="td1" ><label for="soyad">Soyad:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td>
+              <p id="zorunlu">*zorunlu</p>
+
+              <input
+              class="özellik"
+                type="text"
+                id="soyad"
+                required
+                placeholder="soyadınızı girin"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td id="td1" ><label for="k_ad">Kullanıcı Adı:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td >
+              <p id="zorunlu">*zorunlu</p>
+
+              <input
+              class="özellik"
+                type="text"
+                id="k_ad"
+                required
+                placeholder="kullanıcı adını girin"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td id="td1" ><label for="email">email:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td >
+              <p id="zorunlu">*zorunlu</p>
+
+              <input
+              class="özellik"
+                type="email"
+                id="email"
+                required
+                placeholder="email adresini girin"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td id="td1" ><label for="adres">Adres:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td>
+              <p id="zorunlu">*zorunlu</p>
+
+              <input
+              class="özellik"
+                type="text"
+                id="adres"
+                required
+                placeholder="adresini girin"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td id="td1" ><label for="cinsiyet">cinsiyet:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td >
+              <p id="zorunlu3">*zorunlu</p>
+             <div class="özellik1">
+              <input type="radio" name="cinsiyet" required />
+              <label for="cinsiyet">erkek</label>
+              <input type="radio" name="cinsiyet" required />
+              <label for="cinsiyet">kadın</label>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td id="td1" ><label for="sehir">şehir:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td >
+              <p id="zorunlu1">*zorunlu</p>
+
+              <select class="özellik" name="sehir" id="">
+                <option value="0">şehir seçiniz</option>
+                <option value="1">adana</option>
+                <option value="2">bursa</option>
+                <option value="3">çankırı</option>
+                <option value="4">erzurum</option>
+                <option value="5">hatay</option>
+                <option value="6">istanbul</option>
+                <option value="7">izmir</option>
+                <option value="8">malatya</option>
+                <option value="9">şanlıurfa</option>
+                <option value="10">yalova</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td id="td1" ><label for="d_tarih">Doğum Tarihi:</label></td>
+            <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+            <td >
+              <p id="zorunlu2">*zorunlu</p>
+
+              <input
+              class="özellik"
+              max="2005-01-02" min="1992-12-31"
+                type="date"
+                id="d_tarih"
+                required
+                placeholder=" doğum tarinizi girin"
+              />
+            </td>
+          </tr>
+          <td id="td1" ><label for="Telefon">
+            Telefon Numarası:</label></td>
+          <td><img src="arrow-right.png" width="40" height="20px" style="margin: 9px 0 0 0;" alt=""></td>
+          <td >
+            <p id="zorunlu">*zorunlu</p>
+
+            <input
+            class="özellik"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"              
+            type="tel"
+              id="Telefon"
+              required
+              placeholder="535-555-5555"
+            />
+          </td>
+        </tr>
+
+       
+         
+        </table><div class="menuyan"></div>
+        
+        <table class="tablo2">
+          <tr>
+            <td class="td2"><label for="hobi">hobiler:</label>
+            </td>
+            <td><img src="right-arrow.png" alt="" width="40px" height="20px" > </td>
+          
+            <td>          
+                <p id="tercihen">tercihen</p>
+                <div class="t2özellik">
+              <input type="checkbox" name=""  />
+              <label for="hobi">kitap okumak</label>
+              <input type="checkbox" name="" />
+              <label for="hobi">sinemaya gitmek</label>
+              <input type="checkbox" name="" />
+              <label for="hobi">spor yapmak</label>
+            </div>
+            </td>
+            </tr>
+         
+            <tr>
+              <td class="td2"><label for="dil">bildiğin yazılım dilleri hangisi veya hangileri:</label></td>
+              <td><img src="right-arrow.png" alt="" width="40px" height="20px" ></td>
+             
+              <td> <p id="tercihen1">tercihen</p>
+                <div class="t2özellik1">
+                <input type="checkbox" name="html" />
+                <label for="html"> HTML</label>
+                <input type="checkbox" name="css"  />
+                <label for="css">CSS </label>
+                <input type="checkbox" name="javascript"  />
+                <label for="javascript">JAVASCRİPT</label>
+                <input type="checkbox" name="php"  />
+                <label for="php">PHP </label>
+                <input type="checkbox" name="phyton"  />
+                <label for="phyton">PHYTON</label>    
+                <input type="checkbox" name="java"  />
+                <label for="java">JAVA</label></div>
+              </td>
+              </tr>
+              <tr>
+            <td  class="td2" style="width: 119.29px; "><label for="deneyim">deneyim:</label></td>
+            <td style="width: 50px;"><img src="right-arrow.png" alt="" width="40px" height="20px" ></td>
+            <td>
+              <p id="tercihen2">tercihen</p>
+              <textarea class="t2özellik2"  name="message" rows="4" cols="70" placeholder="daha önceden çalıştığınız şirketler var ise çalıştığınız şirketler ve kendi bireysel olarak yaptığınız propjerleri anlatın"></textarea>          
+            </td>
+          </tr>
+          <tr>
+            <td  class="td2">
+            <label for="özellik">özellik:</label></td>
+            <td style="width: 50px;"><img src="right-arrow.png" alt="" width="40px" height="20px" ></td>
+
+            <td>
+              <p id="tercihen2">tercihen</p>
+              <textarea  class="t2özellik2" name="message" rows="4" cols="70" placeholder="özelliklerinizi yazınız..."></textarea>   
+            </td>
+          </tr>
+
+          <tr>
+          <td></td>
+          <td></td>
+          <td><input id="gonder_b" type="submit"></td>
+        </tr>
+        </table>
+        <div class="alt"><p>"Benim Üniversitem, Benim Geleceğim"</p></div>
+      </form>
+    
+    </div>
+  
+  </body>
+</html>
