@@ -1,0 +1,255 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /*font-size: 100%;
+	vertical-align: baseline;*/
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+textarea {
+  overflow: auto;
+}
+
+/***** RESET *****/
+
+.hepsi {
+  width: 100%;
+  height: 750px;
+  margin: 0 auto;
+  border: 1px solid;
+  background: #8eaee5;
+}
+.menu {
+  width: 600px;
+  height: 670px;
+  margin: 50px auto 0 auto;
+  background-color: rgb(119, 106, 73);
+  padding: 1px 0 0 0;
+  border-radius: 15px;
+}
+.foto {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 0 auto;
+  border-radius: 100px;
+  box-shadow: 0 10px 10px #434040;
+}
+
+.menu img {
+  border-radius: 100px;
+}
+.isim {
+  width: 300px;
+  height: 20px;
+  margin: 10px auto 0 auto;
+  font: bold 14px tahoma;
+  text-align: center;
+}
+.yazilim {
+  width: 400px;
+  height: 30px;
+  margin: 0 auto;
+  font: bold 25px tahoma;
+  text-align: center;
+}
+
+.web {
+  width: 305px;
+  height: 30px;
+  margin: 10px auto 0 auto;
+}
+.webic1 {
+  width: 150px;
+  height: 30px;
+  float: left;
+  font: bold 12px tahoma;
+  text-align: right;
+}
+.webic2 {
+  width: 150px;
+  height: 30px;
+  float: left;
+  font: bold 12px tahoma;
+}
+.webic1:hover {
+  opacity: 0.5;
+}
+.webic2:hover {
+  opacity: 0.5;
+}
+
+.bilgi {
+  width: 450px;
+  height: 250px;
+  margin: 0 auto;
+}
+.bilgi ul li {
+  float: left;
+  width: 148px;
+  height: 250px;
+  display: block;
+}
+.bilgi ul li a {
+  display: block;
+  width: 148px;
+  height: 35px;
+  margin-top: 10px;
+  text-decoration: none;
+  float: left;
+  font: bold 20px tahoma;
+  text-align: center;
+  border-radius: 20px;
+}
+.bilgi ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 5px 5px #434040;
+}
+.bilgi ul li p {
+  display: none;
+  text-align: start;
+  padding: 8px 0 0 0;
+}
+.bilgi ul li#p1 a:hover p {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  width: 148px;
+  height: 198px;
+  font: 400 15px tahoma;
+  background: #aa8f8f;
+  color: #5c5372;
+  text-decoration: none;
+}
+.bilgi ul li#p2 a:hover p {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  width: 148px;
+  height: 198px;
+  font: 400 15px tahoma;
+  background: #aa8f8f;
+  color: #5c5372;
+  text-decoration: none;
+}
+.bilgi ul li#p3 a:hover p {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 15px 0 0 0;
+  width: 148px;
+  height: 198px;
+  font: 400 15px tahoma;
+  background: #aa8f8f;
+  color: #5c5372;
+  text-decoration: none;
+}
+
+.adres {
+  width: 150px;
+  height: 20px;
+  margin: 10px 0 0 20px;
+  color: rgb(34, 4, 88);
+}
+.alt {
+  width: 360px;
+  height: 30px;
+  margin: 5px auto 0 auto;
+}
+.alt ul li {
+  float: left;
+}
+.alt ul li a {
+  display: block;
+  width: 55px;
+  height: 28px;
+  text-decoration: none;
+  padding: 0 0 0 35px;
+}
+.alt ul li:hover a {
+  display: block;
+}
